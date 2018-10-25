@@ -1,0 +1,274 @@
+
+
+
+
+
+
+/* BEGIN REPONSIVE*/
+
+html
+{
+}
+
+.all
+{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin:auto;
+	padding:auto;
+	max-width: 1080px;
+	min-width: 100px;
+	max-height: 1920px;
+	min-height: 100px;
+}
+
+.allmain
+{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+	margin:auto;
+	padding:auto;
+	max-width: 1080px;
+	min-width: 100px;
+	min-height: 100px;
+	margin-top:-90px;
+}
+
+
+.allfooter
+{
+	width:100%;
+	height:100%;
+	margin:auto;
+	padding:auto;
+	max-width: 1080px;
+	min-width: 50px;
+	max-height: 1920px;
+	min-height: 50px;
+}
+
+body
+{
+	width:100%;
+	height:100%;
+
+	margin:0;
+	background-color:#e0e3e6;
+
+	
+}
+
+/* END REPONSIVE*/
+
+
+
+
+
+
+/* BEGINFONT IMPORT*/
+
+@font-face
+{
+	font-family:Pangram-Regular;
+	src: url('font/Pangram-Regular.ttf');
+	font-family:Valairya;
+	src: url('font/Valairya.ttf');
+}
+
+/*END FONT IMPORT*/
+
+
+
+
+
+
+/* BEGIN NAV MENU */
+
+nav
+{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:50px;
+	background: #20232a;
+	float:left;
+}
+
+ul 
+{
+	width:80%;
+	margin:0 auto;
+	padding:0;
+}
+
+ul li
+{
+	list-style:none;
+	display:inline-block;
+	padding:18px;
+}
+
+header
+{
+	text-align: center;
+	position:fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.textmenu
+{
+	font-family:foxlite;
+	font-size:23px;
+	color:white;
+	text-decoration:none;
+
+}
+
+nav ul a:hover
+{
+	border-color:black;
+	text-decoration:underline;
+}
+
+/* END NAV MENU */
+
+
+
+
+
+
+/* BEGIN MARGIN BOX */
+#marge
+{
+	margin-bottom:100px;
+
+}
+/* END MARGIN BOX */
+
+
+
+
+
+
+/* BEGIN BANNER */
+
+.banner
+{
+	background:url(img/banner1.png) no-repeat;
+	background-position:relative;
+	display:block;
+	padding-top:70px;
+	padding-bottom:20px;
+}
+
+#bannertext
+{
+	color:white;
+	font-size:45px;
+	text-align:center;
+	max-height:100%;
+	min-height:10px;
+}
+
+/* END BANNER */
+
+
+
+
+
+/*BEGIN TEXT*/
+
+main
+{
+	padding-top:100px;
+	padding-bottom: 200px;
+	overflow-x:hidden;
+
+
+}
+#texte
+{
+	
+}
+
+.titre4
+{
+	font-family:Pangram-Regular;
+	font-size:30px;
+}
+
+#titre5
+{
+	font-family:Pangram-Regular;
+	font-size:22px;
+}
+
+.text1
+{
+	font-family:Helvetica, Sans-sherif;
+	font-size:15px;
+}
+
+texte7
+{
+	font-family:Helvetica, Sans-sherif;
+	font-size:15px;
+}
+
+#exemple1
+{
+	background:url(img/htmlexemple.jpg) no-repeat;
+	background-position:relative;
+	width:60%;
+	height:429px;
+	
+	
+}
+/*END TEXT*/
+
+
+
+
+
+
+/*BEGIN FOOTER*/
+
+footer
+{
+
+	text-decoration:none!important;
+	border-top: 4px solid #210f22;
+	background-color:#20232a;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100px;
+	max-height:800px;
+	
+
+}
+
+#footer1 
+{	
+	font-family:Valairya;
+	font-size:15px; 
+	color:white;
+	text-align:center;
+
+
+}
+
+/*END FOOTER*/
+
+
+
+
+
