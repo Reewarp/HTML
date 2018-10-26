@@ -97,14 +97,14 @@ body
 
 
 
-/* BEGINFONT IMPORT*/
+/* BEGIN FONT IMPORT*/
 
 @font-face
 {
 	font-family:Pangram-Regular;
-	src: url('font/Pangram-Regular.ttf');
+	src: url('font/Pangram-Regular.otf') format('Pangram-Regular');
 	font-family:Valairya;
-	src: url('font/Valairya.ttf');
+	src: url('font/Valairya.ttf') format('Valairya');
 }
 
 /*END FONT IMPORT*/
@@ -308,15 +308,13 @@ main
 
 .text1
 {
-	font-family:Helvetica, Sans-sherif;
+	font-family:Pangram-Regular;
 	font-size:15px;
+	font-style:normal;
+	font-weight:normal;
 }
 
-texte7
-{
-	font-family:Helvetica, Sans-sherif;
-	font-size:15px;
-}
+
 ol
 {
 	margin-left:-20px;
