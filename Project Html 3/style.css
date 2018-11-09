@@ -45,14 +45,15 @@ html
 .allbanner
 {
 	width:100%;
-	height:100%;
-	overflow:auto;
+	overflow-x:hidden;
 	margin:auto;
 	padding:auto;
-	max-width: 1080px;
-	min-width: 100px;
-	min-height: 100px;
+	max-width: 10000px;
+	min-width: 1000px;
+	min-height: 10px;
 }
+
+
 
 .allmain
 {
@@ -281,8 +282,10 @@ a:hover.textmenu5
 {
 	color:white;
 	font-size:45px;
-	vertical-align:top;
 	float:center;
+	text-align: center;
+	vertical-align: middle;
+
 	
 }
 
